@@ -57,5 +57,6 @@ y = np.array(times)
 # plotting
 plt.xlabel("n")
 plt.ylabel("time (s)")
-plt.plot(x, y, color ="red", label="fuck")
-plt.show()
+plt.plot(x, y, color ="red", label="line")
+plt.title("ex2.4")
+plt.savefig("ex2.4Graph.jpg")
